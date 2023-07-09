@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello Naresh
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scaler Academy Bootcamp</title>
+    <!--External CSS-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--Internal CSS-->
+    <!-- <style>
+      div {
+        display: block;
+        background-color: aqua;
+        color: black;
+      }
+    </style> -->
+    <!--If Inline, Internal and External CSS are present for a particular element  Inline CSS takse the higher priority
+    and if any other styles are defined rather than Internal those styles are also applied to the element -->
+    <!--If both Internal and External CSS are present for a particular element Internal CSS takes the higher priority-->
+  </head>
+  <body>
+    <!--Inline CSS-->
+    <div class="greetings greet" id="test-id">Hello World!</div>
+    <!-- In CSS id styling takes higher priority over the class-->
+    <!--CSS styling is applied top to bottom-->
+    <div id="test-id">How are you!</div>
+  </body>
 </html>

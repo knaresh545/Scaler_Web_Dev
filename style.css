@@ -1,0 +1,10 @@
+.greet {
+  background-color: red;
+}
+
+.greetings {
+  display: block;
+  background-color: blue;
+  color: white;
+  margin-top: 10px;
+}
