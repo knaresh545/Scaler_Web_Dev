@@ -8,3 +8,23 @@
   color: white;
   margin-top: 10px;
 }
+
+.animation-1 {
+  background-color: green;
+  color: white;
+  animation: color-change 5s forwards;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: red;
+    transform: translateX(0);
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: blue;
+    transform: translateX(100px);
+  }
+}
