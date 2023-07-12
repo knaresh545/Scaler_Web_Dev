@@ -1,4 +1,24 @@
-.greet {
+.responsive {
+  height: 300px;
+  width: 1200px;
+  background-color: red;
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .responsive {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .responsive {
+    width: 500px;
+  }
+}
+/* .greet {
   background-color: red;
 }
 
@@ -27,4 +47,4 @@
     background-color: blue;
     transform: translateX(100px);
   }
-}
+} */
